@@ -1,0 +1,47 @@
+/*
+layout colors:
+
+*/
+
+
+body {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.header-top {
+	
+}
+.header-box {
+	margin-left: 10%;
+}
+
+#header-text {
+	text-align: center-left;
+	font-weight: lighter;
+	font-size: 50px;
+}
+
+.links-box {
+	margin-left: 10%
+}
+
+ul.links-list {
+	list-style-type: none;
+	text-align: center-left;
+	margin: 0;
+	padding:0;
+}
+
+li.link-bullet {
+	float: left;
+}
+
+li.link-bullet a {
+	display: block;
+	padding: 10px;
+	background-color: #dddddd;
+}
+
+li.link-bullet a:hover{
+	background-color: #555;
+}
