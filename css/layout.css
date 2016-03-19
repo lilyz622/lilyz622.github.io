@@ -1,8 +1,6 @@
 /*
 layout colors:
-Color palette from :http://colorpalettes.net/color-palette-2661/
-
-Ivory: Ivory
+Seashell: Seashell
 charcoal: #36454f
 
 */
@@ -11,38 +9,53 @@ html, body {
 	margin: 0px;
 	padding: 0px;
 	border: 0px;
-	background-color: Ivory;
+	background-color: white;
 }
 
 body {
-	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-family: "Lora", “Trebuchet MS”, Arial, sans-serif;
 	color: #36454f;
 }
 
-.header-box {
-	padding: 20px 10px 10px 10px;
-	background-color: transparent; 
+header{
+	overflow: hidden;
 }
 
-#header-text {
-	text-align: left;
-	margin-left:10%;
-	padding:0;
-	font-weight: lighter;
-	font-size: 50px;
+.name{
+	background-color: #36454f;
+	margin: 0px 0px 30px 15%;
+	padding-bottom: 20px;
+	height: 120px;
+	width: 120px;
+	overflow: hidden;
+
+	
 }
+
+#name-text{
+	font-family: "Tangerine", “Trebuchet MS”, Arial, sans-serif;
+	text-align: center;
+	vertical-align: baseline;
+	color: white;
+	font-size: 40px;
+	font-weight: 100;
+}
+
 /*-------------------*/ /*----Navigation Bar-------*/ /*------------------*/
 
 nav{
-	background-color: #36454f;
+	float: left;
+	position: relative;
+	top: 4em;
+	margin-left: 10em;
 }
 .links-box {
-	margin-left: 10%;
+
 }
 
 ul.links-list {
+	background-color: #36454f;
 	list-style-type: none;
-	text-align: center-left;
 	margin: 0;
 	padding:0;
 	overflow: hidden;
@@ -54,16 +67,45 @@ li.link-bullet {
 
 li.link-bullet a{
 	display: block;
-	padding: 10px;
+	padding: 10px 15px 10px 15px;
 }
 
 li.link-bullet a:link, li.link-bullet a:visited{
 	text-decoration: none;
-	color: Ivory;
+	color: white;
 }
 
 
 li.link-bullet a:hover{
 	color: #36454f;
-	background-color: #FFFAF0;
+	background-color: white;
 }
+
+li.link-bullet a.current{
+	color: #36454f;
+	background-color: white;	
+}
+
+.name, .nav {
+	float: left;
+}
+
+/*----------------------*/ /*PAGE NAME*/ /*-------------------------*/
+
+.page-name-wrapper{
+	width = parent;
+	overflow: hidden;
+}
+.page-name{
+	position: static;
+	background-color: #36454f;
+	margin: 0px 0px 40px 15%;
+	padding: 10px 0px 10px 0px;
+	width: 120px;
+	text-align: center;
+	vertical-align: middle;
+	color: white;
+	font-size: 25px;
+	font-weight: 100;
+}
+
