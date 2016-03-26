@@ -13,52 +13,62 @@ html, body {
 }
 
 body {
-	font-family: "Lora", “Trebuchet MS”, Arial, sans-serif;
+	font-family: "Arvo", serif;	
+	text-align: center;
+	
+}
+
+nav, .page-name {
+	font-family: "Quicksand", sans-serif;
 	color: #36454f;
 }
 
 header{
 	overflow: hidden;
+	width: 1200px;
+	margin: 0 auto;
 }
+
+.header-surround{
+	background-color: rgb(235,235,235); /* #EBEBEB*/
+}
+
+/*-------------------*/ /*----Name Block-------*/ /*------------------*/
 
 .name{
 	background-color: #36454f;
-	margin: 0px 0px 30px 15%;
+	margin: 0px 10px 20px 160px;
 	padding-bottom: 20px;
-	height: 120px;
-	width: 120px;
+	height: 130px;
+	width: 130px;
 	overflow: hidden;
-
 	
 }
 
 #name-text{
 	font-family: "Tangerine", “Trebuchet MS”, Arial, sans-serif;
 	text-align: center;
-	vertical-align: baseline;
 	color: white;
-	font-size: 40px;
+	font-size: 50px;
 	font-weight: 100;
+	margin-top: 25px;
 }
 
 /*-------------------*/ /*----Navigation Bar-------*/ /*------------------*/
 
 nav{
 	float: left;
-	position: relative;
-	top: 4em;
-	margin-left: 10em;
-}
-.links-box {
-
+	
 }
 
 ul.links-list {
 	background-color: #36454f;
 	list-style-type: none;
-	margin: 0;
-	padding:0;
+	margin-top: 45px;
+	margin-left: 75px;
+	padding:0px;
 	overflow: hidden;
+	font-size: 20px;
 }
 
 li.link-bullet {
@@ -67,7 +77,7 @@ li.link-bullet {
 
 li.link-bullet a{
 	display: block;
-	padding: 10px 15px 10px 15px;
+	padding: 10px 25px 10px 25px;
 }
 
 li.link-bullet a:link, li.link-bullet a:visited{
@@ -86,26 +96,26 @@ li.link-bullet a.current{
 	background-color: white;	
 }
 
-.name, .nav {
-	float: left;
+.name, .nav{
+	float:left;
 }
 
 /*----------------------*/ /*PAGE NAME*/ /*-------------------------*/
 
 .page-name-wrapper{
-	width = parent;
+	width : 1200px;
 	overflow: hidden;
+	margin: 0 auto;
 }
 .page-name{
-	position: static;
 	background-color: #36454f;
-	margin: 0px 0px 40px 15%;
-	padding: 10px 0px 10px 0px;
-	width: 120px;
+	margin: 20px 10px 20px 160px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size:20px;
+	width: 130px;
 	text-align: center;
-	vertical-align: middle;
 	color: white;
-	font-size: 25px;
 	font-weight: 100;
 }
 
