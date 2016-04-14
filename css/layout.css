@@ -13,9 +13,7 @@ html, body {
 }
 
 body {
-	font-family: "Arvo", serif;	
-	text-align: center;
-	
+	font-family: "Arvo", serif;		
 }
 
 nav, .page-name {
@@ -29,7 +27,14 @@ header{
 	margin: 0 auto;
 }
 
+/*deals with the scrollbar affecting the page width*/
+html {
+    overflow-y: scroll;
+}
+
 .header-surround{
+	width: 100%;
+	min-width: 1200px;
 	background-color: #EBEBEB; /* #EBEBEB*/
 }
 
@@ -119,3 +124,8 @@ li.link-bullet a.current{
 	font-weight: 100;
 }
 
+/*--------------------*/ /*CONTENT*/ /*----------------------------*/
+.content-wrapper{
+	width : 1200px;
+	margin: 0 auto;
+}

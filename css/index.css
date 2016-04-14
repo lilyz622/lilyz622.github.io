@@ -1,2 +1,45 @@
+#welcome {
+	font-family: "Quicksand", sans-serif;
+	background-color: #36454f;
+	margin: 80px 10px 20px 85px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size:25px;
+	width: 280px;
+	text-align: center;
+	color: white;
+	font-weight: 100;
+	position:absolute;
+	letter-spacing:3px;
+}
 
+#welcome-paragraph-container{
+	position: absolute;
+	margin: 160px auto auto 65px;
+	width: 320px;
+	height: auto;
+}
+#welcome-paragraph{
+	position: relative;
+    padding: 20px 20px 20px 20px;
+    line-height: 200%;
+	z-index: 2;
+	font-size: 17px;
+	margin: 0;
+}
+
+#welcome-paragraph-filling{
+	position: absolute;
+    line-height: 200%;
+    background-color: #EBEBEB;
+    opacity: 0.8;
+    width: 100%;
+    height: 100%;
+	z-index: 1;
+}
+
+#portrait{
+	width:1000px;
+	margin: 40px 0px auto 160px;
+}
 
